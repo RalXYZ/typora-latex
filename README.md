@@ -26,12 +26,7 @@ sudo apt install ruby
 sudo apt install sass
 ```
 
-Then, grant execution permission to `make.sh`:  
-```shell
-chmod u+x make.sh
-```
-
-Finally, run the shell script:  
+Then, run the shell script:  
 ```shell
 ./make.sh
 ```
