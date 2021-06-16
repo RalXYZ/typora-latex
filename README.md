@@ -2,12 +2,7 @@
 
 ![ski.png](https://i.loli.net/2021/06/17/l8HaKEgYj9zxF1O.png)  
 
-A LaTeX-style theme for Typora.  
-
-## Current Issue
-
-Currently, this theme can only work in English Typora files.  
-The comparability to Chinese characters is poor, which will be fixed in the future.  
+A LaTeX-style theme for Typora. Supports Chinese characters on Windows and macOS.  
 
 ## Usage
 
@@ -15,8 +10,8 @@ The comparability to Chinese characters is poor, which will be fixed in the futu
 
 Choose between the following two options:  
 
-1. Get the CSS file from *Release*. 
-2. Build by yourself, following the steps in "Build" section.
+1. Get CSS file from *Releases*. 
+2. Build by yourself, following the steps listed in "Build" section below.
 
 ### Deployment
 
@@ -43,12 +38,17 @@ Finally, run the shell script:
 
 You can then find the generated CSS files in `./latex-theme`.  
 
+## Current Issue
+
+Currently, this theme can display Latin characters on every platform. Chinese characters could be correctly displayed on Windows and macOS.  
+The support of Chinese characters on Linux is poor, which will be fixed in the future.  
+
 ## Credit
 
-This work is based on [Keldos-Li/typora-latex-theme](https://github.com/Keldos-Li/typora-latex-theme).  
+This project is based on [Keldos-Li/typora-latex-theme](https://github.com/Keldos-Li/typora-latex-theme).  
 
-Changes between `2fd2fc8` of `Keldos-Li/typora-latex-theme` and the commit which creates this README file in this repository have the following changes:  
+The commit which creates this README file in this repository has the following changes, compared to `2fd2fc8` of `Keldos-Li/typora-latex-theme`:  
 
 - Remove files unrelated to the theme CSS
-- Merge the Windows and macOS CSS files together, using SCSS and shell script to generate the separated two files, which is almost the same compared to the files in `Keldos-Li/typora-latex-theme`, except putting all CSS code in one file and removed some comments.  
+- Merge Windows and macOS CSS files together, using SCSS and shell script to generate CSS files. And the resulting CSS files are almost the same compared to the files in `Keldos-Li/typora-latex-theme`, except putting all CSS code in one file and removed some comments.  
 
