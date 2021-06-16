@@ -1,5 +1,7 @@
 # Typora LaTeX
 
+![ski.png](https://i.loli.net/2021/06/17/l8HaKEgYj9zxF1O.png)  
+
 A LaTeX-style theme for Typora.  
 
 ## Current Issue
